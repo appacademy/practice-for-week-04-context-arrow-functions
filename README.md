@@ -40,7 +40,7 @@ Hi my name is Elle
 ```
 
 However, there is a problem with the code. When invoking
-`greeAfterNamechange(changeName, newName)` with the `changeName` instance method
+`greetAfterNameChange(changeName, newName)` with the `changeName` instance method
 on the newly instantiated user, the context of the `changeName` function is lost
 so there will be an error thrown when running the __index.js__ file.
 
